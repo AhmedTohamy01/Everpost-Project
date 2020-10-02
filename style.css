@@ -67,13 +67,21 @@ table {
 /* ######################################### Header Section ############################################## */
 
 .header {
-  border: solid red;
+  /* border: solid red; */
   height: 970px;
   max-width: 1646px;
   padding-top: 20px;
   background-image: url(./img/Mask.png);
   background-position: center;
-  /* z-index: 1; */
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 750px;
+  }
 }
 
 .navbar {
@@ -120,6 +128,21 @@ table {
   text-align: center;
 }
 
+.stripe-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .stripe-mobile {
+    display: initial;
+    /* border: solid yellowgreen; */
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .payment-button {
   width: 163px;
   height: 45px;
@@ -135,13 +158,34 @@ table {
   text-decoration: none;
 }
 
+.payment-button-container {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .payment-button-container {
+    display: initial;
+    /* border: solid yellowgreen; */
+  }
+}
+
 .main-section {
-  border: solid yellow;
-  height: 650px;
+  /* border: solid yellow; */
   width: 100%;
   background-image: url(./img/flyers.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   padding-top: 120px;
-  /* text-align: center; */
+}
+
+@media (max-width: 850px) {
+  .main-section {
+    background-image: url(./img/flayers-small.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    text-align: center;
+  }
 }
 
 .main-title {
@@ -157,6 +201,20 @@ table {
   margin-bottom: 30px;
 }
 
+@media (max-width: 850px) {
+  .main-title {
+    width: 85%;
+    height: initial;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    margin-bottom: 70px;
+  }
+}
+
 .all-steps {
   /* border: solid red; */
   width: 496px;
@@ -165,6 +223,12 @@ table {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .all-steps {
+    display: none;
+  }
 }
 
 .step {
@@ -178,8 +242,8 @@ table {
   color: #6042FF;
 }
 
-.video-section {
-  border: solid yellow;
+.video {
+  /* border: solid yellow; */
   background-image: url("./img/video-img.png");
   width: 941px;
   height: 530px;
@@ -187,6 +251,23 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 1050px) {
+  .video {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    margin-top: 40px;
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .video-circle {
@@ -194,3 +275,12 @@ table {
   height: 127px;
   /* border: solid yellow; */
 }
+
+@media (max-width: 768px) {
+  .video-circle {
+    width: 78px;
+    height: 78px;
+  }
+}
+
+/* ######################################### Questions Section ############################################## */
