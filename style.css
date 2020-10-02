@@ -67,7 +67,7 @@ table {
 /* ######################################### Header Section ############################################## */
 
 .header {
-  /* border: solid yellow; */
+  border: solid red;
   height: 970px;
   max-width: 1646px;
   padding-top: 20px;
@@ -164,6 +164,7 @@ table {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .step {
@@ -175,4 +176,21 @@ table {
 
 .step-number {
   color: #6042FF;
+}
+
+.video-section {
+  border: solid yellow;
+  background-image: url("./img/video-img.png");
+  width: 941px;
+  height: 530px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-circle {
+  width: 127px;
+  height: 127px;
+  /* border: solid yellow; */
 }
