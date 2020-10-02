@@ -64,13 +64,16 @@ table {
   src: url("./fonts/LibreBaskerville-RegularItalic.otf");
 }
 
-/* ######################################### Heade Section ############################################## */
+/* ######################################### Header Section ############################################## */
 
 .header {
   /* border: solid yellow; */
   height: 970px;
   max-width: 1646px;
   padding-top: 20px;
+  background-image: url(./img/Mask.png);
+  background-position: center;
+  /* z-index: 1; */
 }
 
 .navbar {
@@ -130,4 +133,46 @@ table {
   color: #F2F1F8;
   outline: none;
   text-decoration: none;
+}
+
+.main-section {
+  border: solid yellow;
+  height: 650px;
+  width: 100%;
+  background-image: url(./img/flyers.png);
+  padding-top: 120px;
+  /* text-align: center; */
+}
+
+.main-title {
+  /* border: solid red; */
+  font-size: 48px;
+  font-family: "libre baskerville regular", arial, sans-serif;
+  color: #200D3A;
+  text-align: center;
+  width: 835px;
+  height: 186px;
+  margin: auto;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.all-steps {
+  /* border: solid red; */
+  width: 496px;
+  height: 41px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step {
+  /* border: solid green; */
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 14.5px;
+  color: #424770;
+}
+
+.step-number {
+  color: #6042FF;
 }
