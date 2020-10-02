@@ -6,6 +6,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -36,4 +37,97 @@ table {
   border-spacing: 0;
 }
 
-/* ########################################################################################### */
+/* ######################################### Page Main Settings ######################################### */
+
+@font-face {
+  font-family: "beausite classic clear";
+  src: url("./fonts/BeausiteClassic-Clear.otf");
+}
+
+@font-face {
+  font-family: "geometrica medium";
+  src: url("./fonts/GeometricaMedium.otf");
+}
+
+@font-face {
+  font-family: "libre baskerville bold";
+  src: url("./fonts/LibreBaskerville-Bold.otf");
+}
+
+@font-face {
+  font-family: "libre baskerville regular";
+  src: url("./fonts/LibreBaskerville-Regular.otf");
+}
+
+@font-face {
+  font-family: "libre baskerville regular italic";
+  src: url("./fonts/LibreBaskerville-RegularItalic.otf");
+}
+
+/* ######################################### Heade Section ############################################## */
+
+.header {
+  /* border: solid yellow; */
+  height: 970px;
+  max-width: 1646px;
+  padding-top: 20px;
+}
+
+.navbar {
+  /* border: solid red; */
+  padding: 30px 30px;
+  height: 45px;
+  max-width: 1545px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
+}
+
+.logo {
+  width: 194px;
+  height: 38px;
+}
+
+.navbar-buttons {
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-buttons {
+    display: none;
+  }
+}
+
+.powered-by-stripe {
+  width: 128px;
+  height: 28px;
+  border: 1px solid #424770;
+  margin-right: 20px;
+  padding: 3px 5px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.payment-button {
+  width: 163px;
+  height: 45px;
+  padding: 15px 15px;
+  border-radius: 22px;
+  text-align: center;
+  background-image: linear-gradient(to right, #6042FF, #B601FF);
+  border: none;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 13px;
+  color: #F2F1F8;
+  outline: none;
+  text-decoration: none;
+}
