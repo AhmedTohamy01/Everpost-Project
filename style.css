@@ -68,12 +68,12 @@ table {
 /* ######################################### Header Section ############################################## */
 
 .header {
-  border: solid yellow;
+  /* border: solid yellow; */
   height: 970px;
   max-width: 1646px;
   margin: auto;
   padding-top: 20px;
-  background-image: url(./img/Mask.png);
+  background-image: url("./img/mask.png");
   background-position: center;
 }
 
@@ -174,7 +174,7 @@ table {
 .main-section {
   /* border: solid yellow; */
   width: 100%;
-  background-image: url(./img/flyers.png);
+  background-image: url("./img/flyers.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 120px;
@@ -182,7 +182,7 @@ table {
 
 @media (max-width: 850px) {
   .main-section {
-    background-image: url(./img/flayers-small.png);
+    background-image: url("./img/flayers-small.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 60px;
@@ -286,7 +286,7 @@ table {
 }
 
 .header-bottom-wrapper {
-  border: solid yellowgreen;
+  /* border: solid yellowgreen; */
 }
 
 .header-bottom-bar {
@@ -315,6 +315,157 @@ table {
 /* ######################################### Questions Section ############################################## */
 
 .questions-wrapper {
-  border: solid red;
-  height: 1000px;
+  /* border: solid red; */
+}
+
+.questions-title-wrapper {
+  /* border: solid green; */
+  margin-bottom: 60px;
+}
+
+.questions-title-image {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.questions-title {
+  /* border: solid black; */
+  color: #200D3A;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 40px;
+  width: 584px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.questions-subtitle {
+  /* border: solid black; */
+  color: #200D3A;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 26px;
+  width: 584px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.questions-note {
+  /* border: solid black; */
+  color: #200D3A;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 20px;
+  width: 584px;
+  text-align: center;
+  margin: auto;
+  /* padding-bottom: 50px; */
+}
+
+.all-faqs-wrapper {
+  /* border: solid yellow; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.faqs-left-column {
+  /* border: solid red; */
+  width: 40%;
+}
+
+.faqs-right-column {
+  /* border: solid red; */
+  width: 40%;
+}
+
+.faq-wrapper {
+  /* border: solid salmon; */
+  display: flex;
+}
+
+.faq-image {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.question-wrapper-left {
+  /* border: solid yellowgreen; */
+  background-color: #ffffff;
+  width: 553px;
+  border-radius: 15px 40px 40px 40px;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.question-wrapper-right {
+  /* border: solid yellowgreen; */
+  background-color: #ffffff;
+  width: 553px;
+  border-radius: 40px 15px 40px 40px;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.question-wrapper-right-photo {
+  /* border: solid yellowgreen; */
+  background-color: #ffffff;
+  width: 553px;
+  border-radius: 45px 40px 40px 40px;
+  margin-bottom: 50px;
+}
+
+.question-wrapper-right-photo img {
+  width: 100%;
+}
+
+.question {
+  color: #683CFF;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.question-w-photo {
+  color: #683CFF;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  /* border: solid yellow; */
+}
+
+.answer {
+  color: #200D3A;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.answer-w-photo {
+  /* border: solid yellow; */
+  color: #200D3A;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.terms {
+  color: #200D3A;
+  font-family: "beausite classic clear", arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.note {
+  color: #683CFF;
 }
