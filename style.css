@@ -17,6 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
+  background-color: #f2f1f8;
 }
 
 ol, ul {
@@ -64,15 +65,10 @@ table {
   src: url("./fonts/LibreBaskerville-RegularItalic.otf");
 }
 
-/* header {
-  max-width: 1646;
-  border: solid yellow;
-} */
-
 /* ######################################### Header Section ############################################## */
 
 .header {
-  /* border: solid red; */
+  border: solid yellow;
   height: 970px;
   max-width: 1646px;
   margin: auto;
@@ -289,6 +285,10 @@ table {
   }
 }
 
+.header-bottom-wrapper {
+  border: solid yellowgreen;
+}
+
 .header-bottom-bar {
   /* border: solid yellowgreen; */
   margin-top: 70px;
@@ -301,6 +301,7 @@ table {
 }
 
 .bottom-all-steps {
+  /* border: solid yellowgreen; */
   margin-top: -40px;
   margin-bottom: 150px;
 }
@@ -312,3 +313,8 @@ table {
 }
 
 /* ######################################### Questions Section ############################################## */
+
+.questions-wrapper {
+  border: solid red;
+  height: 1000px;
+}
