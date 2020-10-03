@@ -509,9 +509,19 @@ table {
   border-radius: 20px 20px 0px 0px;
 }
 
+.question-image-mobile {
+  display: none;
+}
+
 @media (max-width: 1023px) {
   .question-wrapper-right-photo {
     border-radius: 20px;
+  }
+  .question-image {
+    display: none;
+  }
+  .question-image-mobile {
+    display: initial;
   }
 }
 
