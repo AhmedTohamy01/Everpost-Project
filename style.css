@@ -64,12 +64,18 @@ table {
   src: url("./fonts/LibreBaskerville-RegularItalic.otf");
 }
 
+/* header {
+  max-width: 1646;
+  border: solid yellow;
+} */
+
 /* ######################################### Header Section ############################################## */
 
 .header {
   /* border: solid red; */
   height: 970px;
   max-width: 1646px;
+  margin: auto;
   padding-top: 20px;
   background-image: url(./img/Mask.png);
   background-position: center;
