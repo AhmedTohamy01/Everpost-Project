@@ -672,6 +672,7 @@ table {
 .terms-image {
   margin-right: 50px;
   width: 150px;
+  /* border: solid orange; */
 }
 
 .terms-link {
@@ -916,6 +917,32 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   text-align: center;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+.payment-bottom-mobile {
+  /* border: solid red; */
+  font-family: "beausite classic clear", arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .payment-bottom-mobile {
+    display: initial;
+  }
+}
+
+.payment-mobile-image {
+  width: 150px;
+  /* border: solid orange; */
+  margin-bottom: 20px;
+}
+
+.payment-mobile-links {
+  /* border: solid orange; */
+  margin-bottom: 70px;
 }
 
 /* ######################################### Bottom Section ############################################## */
