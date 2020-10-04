@@ -18,6 +18,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   line-height: 1;
   background-color: #f2f1f8;
+  max-width: 1646px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ol, ul {
@@ -616,7 +619,7 @@ table {
 
 .payment-wrapper {
   margin-top: 150px;
-  border: solid yellow;
+  /* border: solid yellow; */
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -629,7 +632,7 @@ table {
 }
 
 .payment-left-column {
-  border: solid red;
+  /* border: solid red; */
   width: 45%;
   padding: 30px;
   display: flex;
@@ -678,7 +681,7 @@ table {
 }
 
 .payment-right-column {
-  border: solid red;
+  /* border: solid red; */
   width: 45%;
   padding: 30px;
 }
