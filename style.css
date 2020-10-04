@@ -1,6 +1,86 @@
 /* CSS RESET FILE */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -11,7 +91,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -23,15 +113,20 @@ body {
   margin-left: auto;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote::before, blockquote::after, q::before, q::after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
@@ -150,11 +245,11 @@ table {
   padding: 15px 15px;
   border-radius: 22px;
   text-align: center;
-  background-image: linear-gradient(to right, #6042FF, #B601FF);
+  background-image: linear-gradient(to right, #6042ff, #b601ff);
   border: none;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 13px;
-  color: #F2F1F8;
+  color: #f2f1f8;
   outline: none;
   text-decoration: none;
 }
@@ -190,7 +285,7 @@ table {
 .main-title {
   font-size: 48px;
   font-family: "libre baskerville regular", arial, sans-serif;
-  color: #200D3A;
+  color: #200d3a;
   text-align: center;
   width: 835px;
   height: 186px;
@@ -234,7 +329,7 @@ table {
 }
 
 .step-number {
-  color: #6042FF;
+  color: #6042ff;
 }
 
 .video {
@@ -316,7 +411,7 @@ table {
 }
 
 .questions-title {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 40px;
   width: 584px;
@@ -333,7 +428,7 @@ table {
 }
 
 .questions-subtitle {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 26px;
   width: 584px;
@@ -350,7 +445,7 @@ table {
 }
 
 .questions-note {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 20px;
   width: 584px;
@@ -425,7 +520,7 @@ table {
 }
 
 .question-wrapper-left {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 553px;
   border-radius: 15px 40px 40px 40px;
   padding: 40px;
@@ -446,7 +541,7 @@ table {
 }
 
 .question-wrapper-right {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 553px;
   border-radius: 40px 15px 40px 40px;
   padding: 40px;
@@ -467,7 +562,7 @@ table {
 }
 
 .question-wrapper-right-photo {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 553px;
   border-radius: 45px 40px 40px 40px;
   margin-bottom: 50px;
@@ -475,7 +570,7 @@ table {
 
 .question-wrapper-right-photo img {
   width: 100%;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .question-image-mobile {
@@ -486,9 +581,11 @@ table {
   .question-wrapper-right-photo {
     border-radius: 20px;
   }
+
   .question-image {
     display: none;
   }
+
   .question-image-mobile {
     display: initial;
   }
@@ -502,7 +599,7 @@ table {
 }
 
 .question {
-  color: #683CFF;
+  color: #683cff;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 26px;
   line-height: 1.5;
@@ -516,7 +613,7 @@ table {
 }
 
 .question-w-photo {
-  color: #683CFF;
+  color: #683cff;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 26px;
   line-height: 1.5;
@@ -533,7 +630,7 @@ table {
 }
 
 .answer {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
@@ -547,7 +644,7 @@ table {
 }
 
 .answer-w-photo {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
@@ -563,7 +660,7 @@ table {
 }
 
 .terms {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 13px;
   line-height: 1.5;
@@ -576,14 +673,14 @@ table {
 }
 
 .note {
-  color: #683CFF;
+  color: #683cff;
 }
 
 /* ######################################### Payment Section ########################################## */
 
 .payment-wrapper {
   margin-top: 150px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: center;
 }
@@ -665,7 +762,7 @@ table {
 
 .google-pay-button {
   margin-top: 40px;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -704,7 +801,7 @@ table {
 }
 
 .form-label {
-  color: #200D3A;
+  color: #200d3a;
   font-family: "beausite classic clear", arial, sans-serif;
   margin-bottom: 5px;
   margin-top: 20px;
@@ -739,7 +836,7 @@ table {
 
 .card-number-input input {
   border: 1px solid #c5c5c5;
-  border-radius: 7px 7px 0px 0px;
+  border-radius: 7px 7px 0 0;
   width: 100%;
   height: 55px;
   outline: none;
@@ -756,7 +853,7 @@ table {
 .card-date-input input {
   border: 1px solid #c5c5c5;
   border-top: none;
-  border-radius: 0px 0px 0px 7px;
+  border-radius: 0 0 0 7px;
   width: 100%;
   height: 55px;
   outline: none;
@@ -773,7 +870,7 @@ table {
 .cvc-input input {
   border: 1px solid #c5c5c5;
   border-top: none;
-  border-radius: 0px 0px 7px 0px;
+  border-radius: 0 0 7px 0;
   width: 100%;
   height: 55px;
   outline: none;
@@ -803,7 +900,7 @@ table {
 
 .dropdown-input select {
   border: 1px solid #c5c5c5;
-  border-radius: 7px 7px 0px 0px;
+  border-radius: 7px 7px 0 0;
   width: 100%;
   height: 45px;
   outline: none;
@@ -821,7 +918,7 @@ table {
 
 .zip-input input {
   border: 1px solid #c5c5c5;
-  border-radius: 0px 0px 7px 7px;
+  border-radius: 0 0 7px 7px;
   width: 100%;
   height: 55px;
   outline: none;
@@ -830,14 +927,15 @@ table {
   box-sizing: border-box;
 }
 
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 .subscribe-button {
-  color: #ffffff;
-  background-color: #683CFF;
+  color: #fff;
+  background-color: #683cff;
   font-family: "beausite classic clear", arial, sans-serif;
   width: 100%;
   height: 70px;
@@ -887,5 +985,5 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   width: 100%;
   height: 15px;
   border: none;
-  background-image: linear-gradient(to right, #6042FF, #B601FF);
+  background-image: linear-gradient(to right, #6042ff, #b601ff);
 }
