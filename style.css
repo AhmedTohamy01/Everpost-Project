@@ -684,6 +684,7 @@ table {
   /* border: solid red; */
   width: 45%;
   padding: 30px;
+  text-align: center;
 }
 
 @media (max-width: 1023px) {
@@ -698,6 +699,17 @@ table {
   }
 }
 
+.subscribe-price-mobile {
+  display: none;
+  /* border: solid red; */
+}
+
+@media (max-width: 1023px) {
+  .subscribe-price-mobile {
+    display: initial;
+  }
+}
+
 .google-pay-button {
   /* border: solid navy; */
   margin-top: 40px;
@@ -706,6 +718,12 @@ table {
   display: flex;
   justify-content: center;
   height: 70px;
+}
+
+@media (max-width: 1023px) {
+  .google-pay-button {
+    margin-top: 10px;
+  }
 }
 
 .gpay-image {
