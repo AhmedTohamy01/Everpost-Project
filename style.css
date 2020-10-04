@@ -68,10 +68,9 @@ table {
   src: url("./fonts/LibreBaskerville-RegularItalic.otf");
 }
 
-/* ######################################### Header Section ############################################## */
+/* ######################################### Header Section ######################################### */
 
 .header {
-  /* border: solid yellow; */
   height: 970px;
   max-width: 1646px;
   margin: auto;
@@ -90,7 +89,6 @@ table {
 }
 
 .navbar {
-  /* border: solid pink; */
   padding: 30px 30px;
   height: 45px;
   max-width: 1545px;
@@ -112,7 +110,6 @@ table {
 }
 
 .navbar-buttons {
-  /* border: solid red; */
   display: flex;
   align-items: center;
 }
@@ -140,7 +137,6 @@ table {
 @media (max-width: 768px) {
   .stripe-mobile {
     display: initial;
-    /* border: solid yellowgreen; */
     display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -170,12 +166,10 @@ table {
 @media (max-width: 768px) {
   .payment-button-container {
     display: initial;
-    /* border: solid yellowgreen; */
   }
 }
 
 .main-section {
-  /* border: solid yellow; */
   width: 100%;
   background-image: url("./img/flyers.png");
   background-size: contain;
@@ -194,7 +188,6 @@ table {
 }
 
 .main-title {
-  /* border: solid red; */
   font-size: 48px;
   font-family: "libre baskerville regular", arial, sans-serif;
   color: #200D3A;
@@ -221,9 +214,7 @@ table {
 }
 
 .all-steps {
-  /* border: solid red; */
   width: 496px;
-  /* height: 41px; */
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -237,7 +228,6 @@ table {
 }
 
 .step {
-  /* border: solid green; */
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 14.5px;
   color: #424770;
@@ -248,7 +238,6 @@ table {
 }
 
 .video {
-  /* border: solid yellow; */
   background-image: url("./img/video-img.png");
   width: 941px;
   height: 530px;
@@ -278,7 +267,6 @@ table {
 .video-circle {
   width: 127px;
   height: 127px;
-  /* border: solid yellow; */
 }
 
 @media (max-width: 768px) {
@@ -288,12 +276,7 @@ table {
   }
 }
 
-.header-bottom-wrapper {
-  /* border: solid yellowgreen; */
-}
-
 .header-bottom-bar {
-  /* border: solid yellowgreen; */
   margin-top: 70px;
 }
 
@@ -304,7 +287,6 @@ table {
 }
 
 .bottom-all-steps {
-  /* border: solid yellowgreen; */
   margin-top: -40px;
   margin-bottom: 150px;
 }
@@ -315,14 +297,9 @@ table {
   }
 }
 
-/* ######################################### Questions Section ############################################## */
-
-.questions-wrapper {
-  /* border: solid red; */
-}
+/* ######################################### Questions Section ####################################### */
 
 .questions-title-wrapper {
-  /* border: solid green; */
   margin-bottom: 60px;
 }
 
@@ -339,7 +316,6 @@ table {
 }
 
 .questions-title {
-  /* border: solid black; */
   color: #200D3A;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 40px;
@@ -357,7 +333,6 @@ table {
 }
 
 .questions-subtitle {
-  /* border: solid black; */
   color: #200D3A;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 26px;
@@ -375,14 +350,12 @@ table {
 }
 
 .questions-note {
-  /* border: solid black; */
   color: #200D3A;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 20px;
   width: 584px;
   text-align: center;
   margin: auto;
-  /* padding-bottom: 50px; */
 }
 
 @media (max-width: 768px) {
@@ -392,7 +365,6 @@ table {
 }
 
 .all-faqs-wrapper {
-  /* border: solid yellow; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -404,7 +376,6 @@ table {
 }
 
 .faqs-left-column {
-  /* border: solid red; */
   width: 40%;
 }
 
@@ -418,7 +389,6 @@ table {
 }
 
 .faqs-right-column {
-  /* border: solid red; */
   width: 40%;
 }
 
@@ -432,7 +402,6 @@ table {
 }
 
 .faq-wrapper {
-  /* border: solid salmon; */
   display: flex;
 }
 
@@ -456,7 +425,6 @@ table {
 }
 
 .question-wrapper-left {
-  /* border: solid yellowgreen; */
   background-color: #ffffff;
   width: 553px;
   border-radius: 15px 40px 40px 40px;
@@ -478,7 +446,6 @@ table {
 }
 
 .question-wrapper-right {
-  /* border: solid yellowgreen; */
   background-color: #ffffff;
   width: 553px;
   border-radius: 40px 15px 40px 40px;
@@ -500,7 +467,6 @@ table {
 }
 
 .question-wrapper-right-photo {
-  /* border: solid yellowgreen; */
   background-color: #ffffff;
   width: 553px;
   border-radius: 45px 40px 40px 40px;
@@ -558,7 +524,6 @@ table {
   margin-bottom: 30px;
   padding-right: 40px;
   padding-left: 40px;
-  /* border: solid yellow; */
 }
 
 @media (max-width: 768px) {
@@ -582,7 +547,6 @@ table {
 }
 
 .answer-w-photo {
-  /* border: solid yellow; */
   color: #200D3A;
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 20px;
@@ -615,11 +579,10 @@ table {
   color: #683CFF;
 }
 
-/* ######################################### Payment Section ############################################## */
+/* ######################################### Payment Section ########################################## */
 
 .payment-wrapper {
   margin-top: 150px;
-  /* border: solid yellow; */
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -632,7 +595,6 @@ table {
 }
 
 .payment-left-column {
-  /* border: solid red; */
   width: 45%;
   padding: 30px;
   display: flex;
@@ -646,22 +608,15 @@ table {
   }
 }
 
-.payment-left-column-top {
-  /* border: solid green; */
-}
-
 .subscribe-price-img {
-  /* border: solid yellowgreen; */
   width: 80%;
 }
 
 .subscribe-employee-img {
-  /* border: solid yellowgreen; */
   width: 80%;
 }
 
 .payment-left-column-bottom {
-  /* border: solid yellowgreen; */
   font-family: "beausite classic clear", arial, sans-serif;
   font-size: 15px;
   display: flex;
@@ -672,7 +627,6 @@ table {
 .terms-image {
   margin-right: 50px;
   width: 150px;
-  /* border: solid orange; */
 }
 
 .terms-link {
@@ -682,7 +636,6 @@ table {
 }
 
 .payment-right-column {
-  /* border: solid red; */
   width: 45%;
   padding: 30px;
   text-align: center;
@@ -702,7 +655,6 @@ table {
 
 .subscribe-price-mobile {
   display: none;
-  /* border: solid red; */
 }
 
 @media (max-width: 1023px) {
@@ -712,7 +664,6 @@ table {
 }
 
 .google-pay-button {
-  /* border: solid navy; */
   margin-top: 40px;
   background-color: #000000;
   border-radius: 10px;
@@ -744,7 +695,6 @@ table {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
-  /* border-top: 1px solid #c5c5c5; */
   padding-top: 20px;
 }
 
@@ -762,7 +712,6 @@ table {
 }
 
 .email-input {
-  /* border: solid red; */
   border: none;
 }
 
@@ -778,14 +727,12 @@ table {
 }
 
 .card-info-wrapper {
-  /* border: solid yellow; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
 }
 
 .card-number-input {
-  /* border: solid green; */
   grid-column: 1/-1;
   grid-row: 1/2;
 }
@@ -802,7 +749,6 @@ table {
 }
 
 .card-date-input {
-  /* border: solid brown; */
   grid-column: 1/2;
   grid-row: 2/2;
 }
@@ -820,7 +766,6 @@ table {
 }
 
 .cvc-input {
-  /* border: solid pink; */
   grid-column: 2/2;
   grid-row: 2/2;
 }
@@ -838,7 +783,6 @@ table {
 }
 
 .name-on-card-input {
-  /* border: solid red; */
   border: none;
 }
 
@@ -854,7 +798,6 @@ table {
 }
 
 .dropdown-input {
-  /* border: solid pink; */
   border: none;
 }
 
@@ -873,7 +816,6 @@ table {
 }
 
 .zip-input {
-  /* border: solid red; */
   border: none;
 }
 
@@ -892,10 +834,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   -webkit-appearance: none;
   margin: 0;
 }
-
-/* input[type=text], input[type=email], input[type=password], textarea {
-  -webkit-appearance: none;
-} */
 
 .subscribe-button {
   color: #ffffff;
@@ -921,7 +859,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .payment-bottom-mobile {
-  /* border: solid red; */
   font-family: "beausite classic clear", arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -937,16 +874,14 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .payment-mobile-image {
   width: 150px;
-  /* border: solid orange; */
   margin-bottom: 20px;
 }
 
 .payment-mobile-links {
-  /* border: solid orange; */
   margin-bottom: 70px;
 }
 
-/* ######################################### Bottom Section ############################################## */
+/* ######################################### Bottom Section ########################################### */
 
 .bottom-bar {
   width: 100%;
