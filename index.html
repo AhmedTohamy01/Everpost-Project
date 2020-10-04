@@ -16,7 +16,7 @@
             <img src="./img/stripe.png" alt="Power By Stripe" />
           </div>
           <div>
-            <a href="#" class="payment-button">Skip to payment</a>
+            <a href="https://www.google.com" class="payment-button">Skip to payment</a>
           </div>
         </div>
       </nav>
@@ -54,7 +54,6 @@
           </div>
         </div>
       </div>
-    
       <div class="all-steps bottom-all-steps">
         <p class="step"><span class="step-number">1</span>&nbsp; Watch what's next?</p>
         <p class="step"><span class="step-number">2</span>&nbsp; Read FAQs</p>
@@ -76,7 +75,6 @@
         </div>
       </div>
 
-
       <div class="all-faqs-wrapper">
         <div class="faqs-left-column">
           <div class="faq-wrapper">
@@ -90,7 +88,6 @@
               <p class="terms">*All refunds are made within standard 60 day terms.</p>
             </div>
           </div>
-
           <div class="faq-wrapper">
             <div class="faq-image"><img src="./img/circle.png" /></div>
             <div class="question-wrapper-left">
@@ -101,7 +98,6 @@
               </p>
             </div>
           </div>
-
           <div class="faq-wrapper">
             <div class="faq-image"><img src="./img/circle.png" /></div>
             <div class="question-wrapper-left">
@@ -113,7 +109,6 @@
             </div>
           </div>
         </div>
-
         <div class="faqs-right-column">
           <div class="faq-wrapper">
             <div class="question-wrapper-right">
@@ -125,7 +120,6 @@
             </div>
             <div class="faq-image"><img src="./img/circle.png" /></div>
           </div>
-
           <div class="faq-wrapper">
             <div class="question-wrapper-right-photo">
               <img class="question-image" src="./img/team.png" alt="team photo" />
@@ -157,8 +151,74 @@
           <p class="questions-note">If not, we are all set.</p>
         </div>
       </div>
-
     </div>
+
+    <div class="payment-wrapper">
+      <div class="payment-left-column">
+        <div class="payment-left-column-top">
+          <img class="subscribe-price-img" src="./img/subscribe-price2.png" alt="subscribe price" />
+          <img class="subscribe-employee-img" src="./img/employee.png" alt="subscribe price" />
+        </div>
+        <div class="payment-left-column-bottom">
+          <img class="terms-image" src="./img/stripe.png" alt="Power By Stripe" />
+          <a class="terms-link" href="#">Terms</a>
+          <a class="terms-link" href="#">Privacy</a>
+        </div>
+      </div>
+
+      <div class="payment-right-column">
+        <div class="google-pay-button">
+          <a class="gpay-link" href="https://www.google.com"><img class="gpay-image" src="./img/gpay-logo3.png" alt="google pay logo" /></a>
+        </div>
+
+        <p class="payment-seprator">Or pay with card</p>
+
+        <form class="payment-form">
+          <div class="form-label"><label for="email" >Email</label></div>
+          <div class="email-input">
+            <input id="email" type="text" name="email" />
+          </div>
+
+          <div class="form-label"><label class="form-label" for="card-info">Card Information</label></div>
+          <div class="card-info-wrapper">
+            <div class="card-number-input">
+              <input id="card-number" type="text" name="card-number" placeholder="1234 1234 1234 1234" />
+            </div>
+            <div class="card-date-input">
+              <input id="card-date" type="text" name="card-date" placeholder="MM / YY"/>
+            </div>
+            <div class="cvc-input">
+              <input id="cvc" type="text" name="cvc" placeholder="CVC" />
+            </div>
+          </div>
+
+          <div class="form-label"><label for="name-on-card" >Name on card</label></div>
+          <div class="name-on-card-input">
+          <input id="name-on-card" type="text" name="name-on-card" />
+          </div>
+
+          <div class="form-label"><label class="form-label" for="country" >Country or region</label></div>
+          <div class="dropdown-input">
+            <select id="country" name="country" placeholder="United States">
+              <option value="United States">United States</option>
+              <option value="Canada">Canada</option>
+            </select>
+          </div>
+          <div class="zip-input">
+            <input id="zip" type="text" name="zip" placeholder="ZIP" />
+          </div>
+
+          <button class="subscribe-button" type="post">Subscribe</button>
+        </form>
+
+        <p class="payment-text">
+          By confirming your subscription you allow Everpost to charge your card for this payment 
+          and future payments in accordance with their terms.
+        </p>
+      </div>
+    </div>
+    
+    <div class="bottom-bar"></div>
 
   </body>
 </html>
