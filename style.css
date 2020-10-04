@@ -758,6 +758,7 @@ table {
   font-family: "beausite classic clear", arial, sans-serif;
   margin-bottom: 5px;
   margin-top: 20px;
+  text-align: start;
 }
 
 .email-input {
