@@ -20,7 +20,6 @@ There is No JavaScript or Back-end in the project. This project had been develop
 - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
 - [How To Use](#how-to-use)
-- [Author](#author)
 - [Show Your Support](#show-your-support)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
@@ -67,14 +66,6 @@ git clone https://ahmedtohamy01.github.io/Everpost-Project/
 ```
 
 2) Go to "Everpost-Project" folder and open the index.html file.
-
-
-# Author
-
-👤 **Ahmed Tohamy**
-- Github: https://github.com/AhmedTohamy01
-- Linkedin: https://www.linkedin.com/in/ATohamy
-- Email: Ahmed-Tohamy@outlook.com
 
 
 # Show Your Support
